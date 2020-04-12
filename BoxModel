@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html Dir="itr">
+<head>
+  <meta charset="utf-8"
+<title> Day one in Forms Week1 </title>
+<style media="screen">
+
+  h1{
+
+    margin:0;
+    font-family: sams-seif;
+    background-color: crimson;
+    color: white;
+
+    pandding: 26px 86px;
+
+    color:pink ;
+    background-color: transparent;
+
+    border:18px solid;
+    bordar-button:2px solid;
+    border-left:2px solid;
+
+    margin: 22px 0 ;
+
+    width:400px;
+     /* margin-right: 0 : important ;*/
+    margin-left: auto  ;
+    margin: 22px auto;
+  }
+
+  </style>
+</head>
+
+  <body>
+    <h1> the box model</h1>
+    <h1> the box model</h1>
+    <h1> the box model</h1>
+
+          </body>
+        </html>
