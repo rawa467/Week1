@@ -1,0 +1,88 @@
+# Week1
+Basics of HTML 
+<!DOCTYPE html>
+<html Dir="itr">
+<head>
+  <meta charset="utf-8"
+<title> Day one in Forms Week1 </title>
+<link href="https://fonts.google.com/"rel="stylesheet">
+<style media="screen">
+  body , button ,input {
+    font-family: 'roboto', san-serif;
+  }
+  h1{
+    font-weight: 5px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  lable{
+    margin-right: 120px;
+    font-size: 15px;
+  }
+  form  {
+    margin: 0 auto;
+    display: block;
+    width: 180px;
+    font-size: 15px;
+  }
+  .input-group {
+    margin: 8px 0;
+  }
+  .input-group input {
+    width: 320px;
+    hight:22px;
+    padding: 2px 10px;
+    font-size: 15px;
+    float: left;
+  }
+  form > input:last-child{
+    disaply: block;
+    wiath: 60%;
+    padding: 8px 44px;
+    float: left;
+    background-color: #333;
+    border: none;
+    color: pink;
+      border-radius:5px;
+  }
+  form > input:last-child:hover{
+    opacity: .10;
+  }
+.checkbox-group{
+  margin: 36px 0;
+}
+
+  </style>
+</head>
+
+  <body>
+
+<h1> register an account <h1>
+<form action="index.html" method="post" autocomplete="off">
+  <div class ="input-group">
+      <label for="email"> Email </lable>
+      <input type ="email" name="email" value="" id="email">
+          </div>
+  <div class="input-group">
+          <label for="name"> User account </lable>
+          <input type ="name" name="User_account" value="" id="name">
+              </div>
+    <div class="input-group"
+    <div class ="input-group">
+        <label>Passoword</lable>
+          <input type="password" name="password">
+        </div>
+        <div class="input-group"
+        <div class ="input-group">
+            <label> cofirm Passoword</lable>
+              <input type="password" name="confirm_password">
+            </div>
+      <div class="checkbox-group">
+        <input type="checkbox">
+        <lable>I agree to and have read the <a href=""> tearms of service </a> . </lable>
+      </div>
+      <input type ="submit" name ="submit" value="register">
+
+            </form>
+          </body>
+        </html>
